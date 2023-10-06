@@ -29,6 +29,8 @@ scroll-behavior: smooth;
 }
 body {
 text-transform: capitalize;
+    background-color: rgb(10 10 10) ;
+
 }
 /* end global rules  */
 .header {
