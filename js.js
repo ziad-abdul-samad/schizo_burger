@@ -5,8 +5,8 @@ const sr = ScrollReveal ({
     reset:true
     }) ;
     
-sr.reveal('.header' ,{delay:200 , origin: "left"} );
-sr.reveal('.filter' ,{delay:500 , origin: "right"} );
+sr.reveal('.header' ,{delay:100 , origin: "top"} );
+sr.reveal('.filter' ,{delay:500 , origin: "bottom"} );
 sr.reveal('.landing h1' ,{delay:300 , origin: "top"} );
 sr.reveal('.landing p' ,{delay:400 , origin: "top"} );
 sr.reveal('.landing img' ,{delay:600 , origin: "top"} );
