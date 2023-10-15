@@ -9,9 +9,8 @@ sr.reveal('.header' ,{delay:200 , origin: "top"} );
 sr.reveal('.landing h1' ,{delay:400 , origin: "top"} );
 sr.reveal('.landing .caption-1' ,{delay:500 , origin: "top"} );
 sr.reveal('.landing .caption' ,{delay:600 , origin: "top"} );
-sr.reveal('.landing img' ,{delay:800 , origin: "top"} );
-sr.reveal('.products .product .image' ,{delay:400 , origin: "left"} );
-sr.reveal('.products .product .caption' ,{delay:500 , origin: "right"} );
+sr.reveal('.landing img' ,{delay:800 , origin: "bottom"} );
+sr.reveal('.products' ,{delay:800 , origin: "top"} );
 
 let switcher = document.querySelectorAll(".filter li");
 let products = document.querySelectorAll(".products .product");
