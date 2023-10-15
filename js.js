@@ -1,16 +1,17 @@
 const sr = ScrollReveal ({
-    distance:'90px',
+    distance:'50px',
     duration:"1500",
     delay:"100",
-    reset:true
+    reset:false
     }) ;
     
-sr.reveal('.header' ,{delay:100 , origin: "top"} );
-sr.reveal('.filter' ,{delay:500 , origin: "bottom"} );
-sr.reveal('.landing h1' ,{delay:300 , origin: "top"} );
-sr.reveal('.landing p' ,{delay:400 , origin: "top"} );
-sr.reveal('.landing img' ,{delay:600 , origin: "top"} );
-sr.reveal('.products' ,{delay:200 , origin: "top"} );
+sr.reveal('.header' ,{delay:200 , origin: "top"} );
+sr.reveal('.landing h1' ,{delay:400 , origin: "top"} );
+sr.reveal('.landing .caption-1' ,{delay:500 , origin: "top"} );
+sr.reveal('.landing .caption' ,{delay:600 , origin: "top"} );
+sr.reveal('.landing img' ,{delay:800 , origin: "top"} );
+sr.reveal('.products .product .image' ,{delay:400 , origin: "left"} );
+sr.reveal('.products .product .caption' ,{delay:500 , origin: "right"} );
 
 let switcher = document.querySelectorAll(".filter li");
 let products = document.querySelectorAll(".products .product");
