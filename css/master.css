@@ -366,3 +366,27 @@ scale: 1.020;
 }
 }
 /* start animation */
+/* scroll up  */
+.scrollup {
+    position: fixed;
+    right: 1rem;
+    /* bottom: 20px; */
+    background-color: var(--main-color);
+    /* box-shadow: 0 8px 12px hsla(228, 66%, 45%, .1); */
+    display: inline-flex;
+    padding: .35rem;
+    border-radius: .25rem;
+    color: white;
+    font-size: 1.25rem;
+    z-index: 99;
+    transition: .3s;
+}
+.scrollup:hover {
+    transform: translateY(-.25rem);
+    
+}
+/* show scroll  */
+.show-scroll {
+display: inline-flex;
+bottom:20px ;
+}
